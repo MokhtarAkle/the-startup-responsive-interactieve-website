@@ -1,17 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Saira:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Saira:wght@700&display=swap');
 
 :root{
     --primary-blue: #00DCB9;
     --primary-white: #D7EBEB;
     --secondary-blue: #0A192D;
     --secondary-white: #EDF2F2;
+    --header-font: 'Saira', sans-serif;
+    --regular-font: 'Mulish', sans-serif;
+    
 }
 
 body{
     margin: 0;
+    font-family: var(--regular-font);
 }
 
 header{
     position: sticky;
     box-shadow: 0px 0px 0px 2px var(--primary-white);
+    height: 5.5em;
+    top: 0;
+    background-color: white;
+}
+
+header > svg:nth-of-type(1){
+    width: 2.4em;
+    margin-top: .8em;
+    margin-left: 1em;
+}
+
+header > svg:nth-of-type(2){
+    width: 5em;
+    margin-bottom: 1em;
+    margin-left: .2em;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1rem repeat(7,1fr);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+h1, h2, h3{
+    font-family: var(--header-font);
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+
+main > section{
+    grid-column-start: 2;
+    grid-column-end: 9;
+    padding-top: 3em;
+
+}
+
+h1{
+    font-size: 32px;
+}
+main > article{
+    grid-column-start: 2;
+    grid-column-end: 9;
+    
+}
+
+ul > img{
+    margin-top: 1em;
+    width: 21em;
+}
+
+ul > li > button{
+    padding: 1em 1.5em 1em 1.5em;
+    border-radius: 9999px;
+    border: 2px solid;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+#grey-line{
+    border: 1px solid var(--secondary-white);
+    height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 9;
 }
