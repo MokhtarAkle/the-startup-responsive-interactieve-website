@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Saira:wght@600&display=swap');
+
+:root{
+    --primary-blue: #00DCB9;
+    --primary-white: #D7EBEB;
+    --secondary-blue: #0A192D;
+    --secondary-white: #EDF2F2;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    position: sticky;
+    box-shadow: 0px 0px 0px 2px var(--primary-white);
+}
