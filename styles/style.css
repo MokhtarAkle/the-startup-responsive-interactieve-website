@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Saira:wght@700&display=swap');
-
 :root{
     --primary-blue: #00DCB9;
     --primary-white: #D7EBEB;
@@ -23,13 +21,13 @@ header{
     background-color: white;
 }
 
-header > svg:nth-of-type(1){
+header > img:nth-of-type(1){
     width: 2.4em;
     margin-top: .8em;
     margin-left: 1em;
 }
 
-header > svg:nth-of-type(2){
+header > img:nth-of-type(2){
     width: 5em;
     margin-bottom: 1em;
     margin-left: .2em;
@@ -85,4 +83,8 @@ ul > li > button{
     height: 100%;
     grid-row-start: 1;
     grid-row-end: 9;
+}
+
+button{
+
 }
