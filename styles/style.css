@@ -8,6 +8,11 @@
     
 }
 
+*{
+    line-height: 2;
+    color: var(--secondary-blue);
+}
+
 
 body{
     margin: 0;
@@ -22,13 +27,13 @@ header{
     background-color: white;
 }
 
-header > img:nth-of-type(1){
+header > a > img:nth-of-type(1){
     width: 2.4em;
     margin-top: .8em;
     margin-left: 1em;
 }
 
-header > img:nth-of-type(2){
+header > a > img:nth-of-type(2){
     width: 5em;
     margin-bottom: 1em;
     margin-left: .2em;
@@ -93,5 +98,31 @@ h1{
 
 .intro-detail{
     grid-column-start: 2;
-    grid-column-end: 8;
+    grid-column-end: 9;
+}
+
+.middle-detail{
+    grid-column-start: 2;
+    grid-column-end: 9;
+}
+
+.content-detail{
+    grid-column-start: 2;
+    grid-column-end: 9;
+}
+
+.content-detail > ul > li{
+    line-height: 1.7em;
+    margin-bottom: .5em;
+}
+
+.reel-detail{
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+
+.reel-detail > img{
+    width: 100vw;
+    margin-left: -1em;
+    margin-right: -1em;
 }
