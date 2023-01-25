@@ -30,14 +30,14 @@ De design challenge voor deze opdracht bestond uit het kopiëren van de bestaand
 De website bestaat uit een overzicht en detailpagina. Op de overzichtspagina is een collectie van vacatures te vinden met knoppen die leiden naar de detailpagina. Op de detailpagina is alle informatie te vinden die een werkzoekende nodig zou hebben. Onder aan de pagina bevindt zich een formulier waar een werkzoekende zijn gegevens en CV zou kunnen achterlaten. De website is responsive opgebouwd en werkt op alle schermgroottes. Er is gebruik gemaakt van een grid voor de main styling en van flexbox voor individuele elementen. Er is JS gebruikt om de media te animeren en de huisstijl elementen zoals header, footer en grid lijnen zijn nagemaakt in de Avocado Media stijl.
 
 ## Checklist
-[x] basis HTML structuur
-[x] Correcte plaatsing en basis styling elementen
-[x] Responsiveness
-[] gedetaileerde styling elementen
-[] hover animatie
-[] pointer dot
-[] foto > reel
-
+[x] basis HTML structuur  
+[x] Correcte plaatsing en basis styling elementen  
+[x] Responsiveness  
+[ ] gedetaileerde styling elementen  
+[ ] hover animatie  
+[ ] pointer dot  
+[ ] foto > reel  
+ 
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
