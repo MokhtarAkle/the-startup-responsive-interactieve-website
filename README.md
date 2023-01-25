@@ -1,5 +1,3 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # Vacature overzicht en detail pagina Avocado Media
 
 ![image](https://user-images.githubusercontent.com/45001009/214705287-a0895e43-7f27-45c9-85da-1d5c606683c3.png)
