@@ -31,10 +31,15 @@ header{
     background-color: white;
 }
 
+header > a{
+    text-decoration: none;
+}
+
 header > a > img:nth-of-type(1){
     width: 2.4em;
     margin-top: .8em;
     margin-left: 1em;
+    c
 }
 
 header > a > img:nth-of-type(2){
@@ -132,3 +137,26 @@ footer{
     height: 31.2em
 }
 
+.content-detail > form{
+    max-width: 9em;
+    font-size: 1.5rem;
+}
+
+.content-detail > form > input{
+    padding: 1em;
+    padding-right: 10em;
+}
+
+.content-detail > form > label{
+    font-family: var(--header-font);
+    font-weight: 400;
+}
+
+.content-detail > form > input::placeholder{
+
+    
+}
+
+.content-detail > form > input:nth-of-type(6), .content-detail > form > input:nth-of-type(7){
+    padding: 0;
+}
