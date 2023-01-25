@@ -29,6 +29,7 @@ header{
     height: 5.5em;
     top: 0;
     background-color: white;
+    z-index: 10;
 }
 
 header > a{
@@ -39,7 +40,6 @@ header > a > img:nth-of-type(1){
     width: 2.4em;
     margin-top: .8em;
     margin-left: 1em;
-    c
 }
 
 header > a > img:nth-of-type(2){
@@ -145,6 +145,7 @@ footer{
 .content-detail > form > input{
     padding: 1em;
     padding-right: 10em;
+    border: solid 2px var(--secondary-blue);
 }
 
 .content-detail > form > label{
@@ -153,10 +154,94 @@ footer{
 }
 
 .content-detail > form > input::placeholder{
+    font-size: 14px;
+    opacity: .8;
+}
 
+
+
+input[type="file"] {
+    display: none;
+}
+
+.content-detail > form > label:nth-of-type(6){
+    margin-right: 5em;
+}
+
+.content-detail > form > label:nth-of-type(7){
+    border: 2px solid var(--secondary-blue);
+    border-radius: 9999px;
+    padding: .3em 1.2em .3em 1.2em;
+    margin-left: .6em;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 5em;
+    cursor: pointer;
+}
+
+.content-detail > form > label:nth-of-type(7) > svg{
+    width: 1em;
+    margin-right: 3px;
+
+}
+
+.content-detail > form > input:nth-of-type(6){
+    padding: .6em 1.7em .6em 1.7em;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 9999px;
+    margin-left: .6em;
+    background-color: var(--primary-blue);
+    border: none;
+    vertical-align: -1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+footer > p{
+    color: white;
+    margin-left: .5em;
+}
+footer > a{
+    color: white;
+    text-decoration: none;
+    margin-left: .5em;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: .2em;
+}
+
+footer > a > img:nth-of-type(1){
+    width: 2.4em;
+    margin-top: 4em;
+    margin-left: 1em;
     
 }
 
-.content-detail > form > input:nth-of-type(6), .content-detail > form > input:nth-of-type(7){
-    padding: 0;
+footer > a > img:nth-of-type(2){
+    width: 5em;
+    margin-bottom: 1em;
+    margin-left: .2em;
+}
+
+footer > div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer > div > p{
+    color: white;
+    font-size: 12px;
+    flex-basis: 40%;
+    margin-left: 2em;
+    margin-top: 1.5em;
+}
+
+footer > div > p:nth-of-type(3){
 }
